@@ -26,9 +26,9 @@ Jupyter-Notebook
 ```
 ## Code for baseline experiments
 
-# Image Classification
+### Image Classification
 
-# Image Retrieval
+### Image Retrieval
 
 ## License
 This dataset is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/)
