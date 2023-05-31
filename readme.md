@@ -2,8 +2,10 @@
 
 ## Abstract
 Lorem ipsum dolor sit amet, consectetur adipisici elit, ...<br>
-INCLUDE visual abstract<br>
-![Visual Abstract](/images/YYY.png)
+<br>
+In the context of retail products, the term ``Visual Entity Matching'' refers to the task of linking individual product images from diverse sources to a semantic product groupings which is illustrated by the following image.<br>
+![Visual Abstract](/images/visual_abstract.svg)<br>
+
 
 ## Dataset Description
 Lorem ipsum dolor sit amet, consectetur adipisici elit, ...
@@ -12,9 +14,8 @@ Lorem ipsum dolor sit amet, consectetur adipisici elit, ...
 todo: Link zenodo<br>
 The dataset can be downloaded via the link: [Retail-786k Dataset](https://zenodo.org/record/XXX.XXX)
 
-Download the dataset via a Jupyter-Notebook:<br>
+To download the dataset via a Jupyter-Notebook:<br>
 todo: Links anpassen<br>
-Jupyter-Notebook
 ```
 !pip install wget
 
