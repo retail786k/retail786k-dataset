@@ -31,8 +31,7 @@ todo: Links anpassen<br>
 It is assumed that the dataset is downloaded in the same working directory.
 
 ### Image Classification
-
-
+Run [static_classification.ipynb](code/classification/static_classification.ipynb) to get the results for the ``Static'' EM as Classification Problem.
 
 ### Image Retrieval
 
