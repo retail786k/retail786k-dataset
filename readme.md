@@ -38,6 +38,10 @@ Run [static_classification.ipynb](code/classification/static_classification.ipyn
 We use the following algorithm for the image retrieval task: [ROADMAP](https://github.com/elias-ramzi/ROADMAP)<br>
 Please follow the instructions on the website to use ROADMAP.<br>
 
+before run command:<br>
+copy *.txt files into the dataset folder, same folder level as train and test<br>
+copy the files in the folder roadmap_retail-786k in the corresponding folder of the downloaded ROADMAP repository<br>
+
 ```
 conda activate roadmap_env
 
