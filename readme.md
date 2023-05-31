@@ -3,8 +3,10 @@
 ## Abstract
 Lorem ipsum dolor sit amet, consectetur adipisici elit, ...<br>
 <br>
-In the context of retail products, the term ``Visual Entity Matching'' refers to the task of linking individual product images from diverse sources to a semantic product groupings which is illustrated by the following image.<br>
-![Visual Abstract](/images/visual_abstract.svg)<br>
+In the context of retail products, the term ``Visual Entity Matching'' refers to the task of linking individual product images from diverse sources to a semantic product groupings. The following image illustrates such grouping.<br>
+<p align="center">
+    <img src="/images/visual_abstract.svg">
+</p>
 
 
 ## Dataset Description
@@ -26,9 +28,11 @@ todo: Links anpassen<br>
 !python -m wget https://zenodo.org/record/XXX/files/X.zip?download=1?
 ```
 ## Code for baseline experiments
-It is assumed that the data is downloaded in the same working directory.
+It is assumed that the dataset is downloaded in the same working directory.
 
 ### Image Classification
+
+
 
 ### Image Retrieval
 
