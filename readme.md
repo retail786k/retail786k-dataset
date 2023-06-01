@@ -28,27 +28,30 @@ todo: Links anpassen<br>
 !python -m wget https://zenodo.org/record/XXX/files/X.zip?download=1?
 ```
 ## Code for baseline experiments
-It is assumed that the dataset is downloaded in the same working directory.
+For both experiments, it is assumed that the dataset is downloaded in the same working directory.
 
 ### Image Classification
 Run [static_classification.ipynb](code/classification/static_classification.ipynb) to get the results for the ``Static'' EM as Classification Problem.
 
 ### Image Retrieval
 
-download data<br>
-copy *.txt files into the dataset folder, same folder level as train and test<br>
-cp retail-786k_256_info_all_train.txt retail-786k_256<br>
-cp retail-786k_256_info_all_test.txt retail-786k_256<br>
+Copy the <em>retail-786k_256_info_all_*.txt</em> files into the dataset folder <em>retail-786k_256</em><br>
+(the files must be at the same folder level as the train and test folder)
+
+```
+cp retail-786k_256_info_all_train.txt retail-786k_256
+cp retail-786k_256_info_all_test.txt retail-786k_256
+```
 
 We use the following algorithm for the image retrieval task: [ROADMAP](https://github.com/elias-ramzi/ROADMAP)<br>
-Clone the repository .<br>
-
-copy the files of the folder roadmap of this repository in the corresponding folder of the downloaded ROADMAP repository<br>
-add path to dataset in roadmap/config/dataset/retail786k_256.yaml under "data_dir: "
-
-cp -r roadmap ROADMAP/<br>
-
-and follow the instructions on the website to use ROADMAP
+First, clone the repository.<br>
+Copy the files of the folder <em>roadmap</em> of this repository into the corresponding folder of the downloaded <em>ROADMAP</em> repository.
+```
+cp -r roadmap ROADMAP
+```
+Add the path to dataset in the file <em>roadmap/config/dataset/retail786k_256.yaml</em><br>
+Follow the instructions on the website to use ROADMAP.<br>
+Afterwards, run the following commands:
 ```
 cd ROADMAP
 
