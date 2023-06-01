@@ -35,20 +35,25 @@ Run [static_classification.ipynb](code/classification/static_classification.ipyn
 
 ### Image Retrieval
 
-We use the following algorithm for the image retrieval task: [ROADMAP](https://github.com/elias-ramzi/ROADMAP)<br>
-Please follow the instructions on the website to use ROADMAP.<br>
-
-before run command:<br>
+download data<br>
 copy *.txt files into the dataset folder, same folder level as train and test<br>
-copy the files in the folder roadmap_retail-786k in the corresponding folder of the downloaded ROADMAP repository<br>
+cp retail-786k_256_info_all_train.txt retail-786k_256<br>
+cp retail-786k_256_info_all_test.txt retail-786k_256<br>
 
+We use the following algorithm for the image retrieval task: [ROADMAP](https://github.com/elias-ramzi/ROADMAP)<br>
+Clone the repository .<br>
+
+copy the files of the folder roadmap of this repository in the corresponding folder of the downloaded ROADMAP repository<br>
+add path to dataset in roadmap/config/dataset/retail786k_256.yaml under "data_dir: "
+
+cp -r roadmap ROADMAP/<br>
+
+and follow the instructions on the website to use ROADMAP
 ```
-conda activate roadmap_env
-
 cd ROADMAP
 
 # running ROADMAP algorithm
-HYDRA_FULL_ERROR=1 CUDA_VISIBLE_DEVICES='0,1,2,3' python roadmap/single_experiment_runner.py 'experience.experiment_name=retail-786k_256_ROADMAP_${dataset.sampler.kwargs.batch_size}_sota' experience.seed=333 experience.max_iter=100 'experience.log_dir=.' optimizer=retail-786k model=resnet transform=retail-786k_256 dataset=retail-786k_256 dataset.sampler.kwargs.batch_size=128 loss=roadmap
+HYDRA_FULL_ERROR=1 CUDA_VISIBLE_DEVICES='0,1,2,3' python roadmap/single_experiment_runner.py 'experience.experiment_name=retail786k_256_ROADMAP_${dataset.sampler.kwargs.batch_size}_sota' experience.seed=333 experience.max_iter=100 'experience.log_dir=.' optimizer=retail786k_256 model=resnet transform=retail786k_256 dataset=retail786k_256 dataset.sampler.kwargs.batch_size=128 loss=roadmap
 ```
 
 ## License
