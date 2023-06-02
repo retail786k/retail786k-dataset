@@ -1,5 +1,3 @@
-# Retail-786k Dataset
-
 ## Abstract
 Lorem ipsum dolor sit amet, consectetur adipisici elit, ...<br>
 <br>
