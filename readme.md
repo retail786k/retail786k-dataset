@@ -8,7 +8,11 @@ In the context of retail products, the term ``Visual Entity Matching'' refers to
 
 
 ## Dataset Description
-Lorem ipsum dolor sit amet, consectetur adipisici elit, ...
+This dataset is a **large-scale** dataset for ``**visual entity matching**''. Entity Matching (EM) indicates the identification of semantic groupings. As it occurs like the identification of consumer products in images in retail applications. A product is a retail item on sale that is uniquely identified by the internationally standardized Global Trade Item Number (GTIN). Entities are then defined as semantic groupings of products.
+
+The dataset consists of **786,179** images labeled with 3,298 different entities. The images are split into sub-sets of 748,715 training images and 37,464 test images. The images of the dataset are cropped from scanned advertisement leaflets, collected over several years from different European retailers.
+
+Two versions of the dataset are provided: once with the longer edge fixed to 512 and another one fixed to 256.
 
 ## Download Dataset
 todo: Link zenodo<br>
