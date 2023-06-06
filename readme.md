@@ -1,14 +1,16 @@
 ## Abstract
-Lorem ipsum dolor sit amet, consectetur adipisici elit, ...<br>
+Entity Matching (EM) defines the task of learning to group objects by transferring semantic concepts from example groups (=entities) to unseen data. Despite the general availability of image data in the context of many EM-problems, most currently available EM-algorithms solely rely on (textual) meta data.<br>
+In this paper, we introduce the first publicly available large-scale dataset for "visual entity matching", based on a production level use case in the retail domain. Using scanned advertisement leaflets, collected over several years from different European retailers, we provide a total of ~786k manually annotated, high resolution product images containing ~18k different individual retail products which are grouped into ~3k entities. The annotation of these product entities is based on a price comparison task, where each entity forms an equivalent class of comparable products.<br>
+Following on a first baseline evaluation, we show that the proposed ``visual entity matching'' constitutes a novel learning problem which can not sufficiently be solved using standard image based classification and retrieval algorithms. Instead, novel approaches which allow to transfer example based visual equivalent classes to new data are needed to solve the proposed problem. The aim of this paper is to provide a benchmark for such algorithms.<br>
 <br>
-In the context of retail products, the term ``Visual Entity Matching'' refers to the task of linking individual product images from diverse sources to a semantic product groupings. The following image illustrates such grouping.<br>
+In the context of retail products, the term "Visual Entity Matching" refers to the task of linking individual product images from diverse sources to a semantic product groupings. The following image illustrates such grouping.<br>
 <p align="center">
     <img src="/images/visual_abstract.svg">
 </p>
 
 
 ## Dataset Description
-This dataset is a **large-scale** dataset for ``**visual entity matching**''. Entity Matching (EM) indicates the identification of semantic groupings. As it occurs like the identification of consumer products in images in retail applications. A product is a retail item on sale that is uniquely identified by the internationally standardized Global Trade Item Number (GTIN). Entities are then defined as semantic groupings of products.
+This dataset is a **large-scale** dataset for "**visual entity matching**". Entity Matching (EM) indicates the identification of semantic groupings. As it occurs like the identification of consumer products in images in retail applications. A product is a retail item on sale that is uniquely identified by the internationally standardized Global Trade Item Number (GTIN). Entities are then defined as semantic groupings of products.
 
 The dataset consists of **786,179** images labeled with 3,298 different entities. The images are split into sub-sets of 748,715 training images and 37,464 test images. The images of the dataset are cropped from scanned advertisement leaflets, collected over several years from different European retailers.
 
