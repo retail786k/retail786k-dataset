@@ -15,19 +15,17 @@ The dataset consists of **786,179** images labeled with 3,298 different entities
 Two versions of the dataset are provided: once with the longer edge fixed to 512 and another one fixed to 256.
 
 ## Download Dataset
-todo: Link zenodo<br>
-The dataset can be downloaded via the link: [Retail-786k Dataset](https://zenodo.org/record/XXX.XXX)
+The dataset can be downloaded via the link: [Retail-786k Dataset](https://zenodo.org/record/7970567)
 
-To download the dataset via a Jupyter-Notebook:<br>
-todo: Links anpassen<br>
+To download the dataset via a Jupyter-Notebook:
 ```
 !pip install wget
 
 # version 256
-!python -m wget https://zenodo.org/record/XXX/files/X.zip?download=1?
+!python -m wget https://zenodo.org/record/7970567/files/retail-786k_256.zip?download=1
 
 # version 512
-!python -m wget https://zenodo.org/record/XXX/files/X.zip?download=1?
+!python -m wget https://zenodo.org/record/7970567/files/retail-786k_512.zip?download=1
 ```
 ## Code for baseline experiments
 For both experiments, it is assumed that the dataset is downloaded in the same working directory.
