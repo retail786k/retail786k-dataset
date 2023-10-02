@@ -16,8 +16,10 @@ The dataset consists of **786,179** images labeled with 3,298 different entities
 
 Two versions of the dataset are provided: once with the longer edge fixed to 512 and another one fixed to 256.
 
+The comprehensive dataset description can be found in the corresponding [paper](https://arxiv.org/abs/2309.17164).
+
 ## Download Dataset
-The dataset can be downloaded via the link: [Retail-786k Dataset](https://zenodo.org/record/7970567)
+The dataset can be downloaded via the link: [Retail-786k Dataset](https://zenodo.org/record/7970567).
 
 To download the dataset via a Jupyter-Notebook:
 ```
