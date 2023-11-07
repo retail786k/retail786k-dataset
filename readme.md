@@ -39,7 +39,7 @@ Run [static_classification.ipynb](code/classification/static_classification.ipyn
 
 ### Image Retrieval
 
-Copy the <em>retail-786k_256_info_all_*.txt</em> files into the dataset folder <em>retail-786k_256</em><br>
+Copy the [retail-786k_256_info_all_*.txt](code/retrieval) files into the dataset folder <em>retail-786k_256</em><br>
 (the files must be at the same folder level as the train and test folder)
 
 ```
@@ -53,7 +53,7 @@ Copy the files of the folder <em>roadmap</em> of this repository into the corres
 ```
 cp -r roadmap ROADMAP
 ```
-Add the path to dataset in the file <em>roadmap/config/dataset/retail786k_256.yaml</em><br>
+Add the path to dataset in the file [retail786k_256.yaml](code/retrieval/roadmap/config/dataset/retail786k_256.yaml)<br>
 Follow the instructions on the website to use ROADMAP.<br>
 Afterwards, run the following commands:
 ```
