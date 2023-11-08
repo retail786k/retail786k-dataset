@@ -42,7 +42,7 @@ Run [static_classification.ipynb](code/classification/static_classification.ipyn
 
 ### Image Retrieval
 
-Copy the [retail-786k\_256\_info\_all\_*.txt](code/retrieval/) files into the dataset folder <em>retail-786k_256</em><br>
+Copy the [retail-786k\_256\_info\_all\_train.txt](code/retrieval/retail-786k_256_info_all_train.txt) and [retail-786k\_256\_info\_all\_test.txt](code/retrieval/retail-786k_256_info_all_test.txt) files into the dataset folder <em>retail-786k_256</em><br>
 (the files must be at the same folder level as the train and test folder)
 
 ```
