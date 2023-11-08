@@ -32,6 +32,9 @@ To download the dataset via a Jupyter-Notebook:
 !python -m wget https://zenodo.org/record/7970567/files/retail-786k_512.zip?download=1
 ```
 ## Code for baseline experiments
+
+The code is located at the [GitHub repository](https://github.com/retail786k/retail786k-dataset).
+
 For both experiments, it is assumed that the dataset is downloaded in the same working directory.
 
 ### Image Classification
