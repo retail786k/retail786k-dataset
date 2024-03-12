@@ -65,6 +65,22 @@ cd ROADMAP
 # running ROADMAP algorithm
 HYDRA_FULL_ERROR=1 CUDA_VISIBLE_DEVICES='0,1,2,3' python roadmap/single_experiment_runner.py 'experience.experiment_name=retail786k_256_ROADMAP_${dataset.sampler.kwargs.batch_size}_sota' experience.seed=333 experience.max_iter=100 'experience.log_dir=.' optimizer=retail786k_256 model=resnet transform=retail786k_256 dataset=retail786k_256 dataset.sampler.kwargs.batch_size=128 loss=roadmap
 ```
+## Paper
+Accepted at the [Data-centric Machine Learning Research (DMLR) Workshop](https://dmlr.ai/) at ICLR 2024.
+
+Preprint is available here: [Retail-786k: a Large-Scale Dataset for Visual Entity Matching](https://arxiv.org/abs/2309.17164).
+
+Citation:
+```
+@misc{lamm2024retail786k,
+      title={Retail-786k: a Large-Scale Dataset for Visual Entity Matching}, 
+      author={Bianca Lamm and Janis Keuper},
+      year={2024},
+      eprint={2309.17164},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 ## License
 This dataset is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/)
